@@ -135,7 +135,17 @@ td {
   color: #d81212;
 }
 
-hr {
-  padding-top: 15px;
-  padding-bottom: 15px;
+.heaven-roles-table {
+  padding-top: 35px;
+  padding-bottom: 5px;
+}
+
+.heaven-ranks {
+  font-size: 24px;
+  color: #fbff00;
+}
+
+.heaven-roles {
+  font-size: 20px;
+  color: #fbff00;
 }
