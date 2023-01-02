@@ -77,7 +77,7 @@ td {
   border: 1px solid white;
 }
 
-.role {
+.rank {
   width: 10%;
   font-weight: 600;
   font-size: 20px;
@@ -148,4 +148,58 @@ td {
 .heaven-roles {
   font-size: 20px;
   color: #fbff00;
+}
+
+.packs-title-name {
+  width: 10%;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.packs-title-members {
+  width: 10%;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.packs-title-logo {
+  width: 10%;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.packs-title-den {
+  width: 10%;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.packs-title-description {
+  width: 20%;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.pack-name {
+  font-size: 24px;
+}
+
+.pack-description {
+  font-size: 18px;
+}
+
+.pack-members {
+  font-size: 20px;
+}
+
+#pack-logo-img {
+  width: 90px;
+  height: auto;
+  border-radius: 100px;
+  min-width: 50px;
+  max-width: 150px;
+}
+
+.pack-den {
+  font-size: 20px;
 }
