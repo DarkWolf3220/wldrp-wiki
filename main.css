@@ -156,8 +156,20 @@ td {
   font-size: 20px;
 }
 
+.packs-title-description {
+  width: 30%;
+  font-weight: 600;
+  font-size: 20px;
+}
+
 .packs-title-members {
   width: 10%;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.packs-title-members-list {
+  width: 20%;
   font-weight: 600;
   font-size: 20px;
 }
@@ -170,12 +182,6 @@ td {
 
 .packs-title-den {
   width: 10%;
-  font-weight: 600;
-  font-size: 20px;
-}
-
-.packs-title-description {
-  width: 20%;
   font-weight: 600;
   font-size: 20px;
 }
