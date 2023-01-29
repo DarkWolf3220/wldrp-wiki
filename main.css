@@ -65,51 +65,48 @@ img {
 
 .container {
   width: 100%;
+  overflow-x: auto;
 }
 
 table {
   float: left;
   text-align: center;
+  height: auto;
   width: 100%;
 }
 
 td {
   border: 1px solid white;
+  border-radius: 5px;
 }
 
-.rank {
+.ranks-rank, .ranks-position {
   width: 10%;
   font-weight: 600;
   font-size: 20px;
 }
 
-.description {
+.ranks-description {
   width: 80%;
   font-weight: 600;
   font-size: 20px;
   padding: 5px;
 }
 
-.position {
-  width: 10%;
-  font-weight: 600;
-  font-size: 20px;
-}
-
 td {
   padding: 10px;
 }
 
-.roles {
+.ranks {
   font-size: 20px;
   color: #1ab31a;
 }
 
-.roles-number {
+.ranks-number {
   font-size: 20px;
 }
 
-.earth-roles-table {
+.earth-ranks-table {
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -119,50 +116,39 @@ td {
   color: #1ab31a;
 }
 
-.hell-ranks {
+.hell-title-ranks {
   margin-top: 15px;
   font-size: 24px;
   color: #ee0b0b;
 }
 
-.hell-roles-table {
+.hell-ranks-table, .heaven-ranks-table {
   padding-top: 35px;
   padding-bottom: 5px;
 }
 
-.hell-roles {
+.hell-ranks {
   font-size: 20px;
   color: #ee0b0b;
 }
 
-.heaven-roles-table {
-  padding-top: 35px;
-  padding-bottom: 5px;
-}
-
-.heaven-ranks {
+.heaven-title-ranks {
   font-size: 24px;
   color: #fbff00;
 }
 
-.heaven-roles {
+.heaven-ranks {
   font-size: 20px;
   color: #fbff00;
 }
 
-.packs-title-name {
-  width: 10%;
-  font-weight: 600;
-  font-size: 20px;
-}
-
 .packs-title-description {
-  width: 30%;
+  width: 40%;
   font-weight: 600;
   font-size: 20px;
 }
 
-.packs-title-members {
+.packs-title-name, .packs-title-members, .packs-title-den, .packs-title-logo {
   width: 10%;
   font-weight: 600;
   font-size: 20px;
@@ -174,27 +160,11 @@ td {
   font-size: 20px;
 }
 
-.packs-title-logo {
-  width: 10%;
-  font-weight: 600;
-  font-size: 20px;
-}
-
-.packs-title-den {
-  width: 10%;
-  font-weight: 600;
-  font-size: 20px;
-}
-
 .pack-name {
   font-size: 24px;
 }
 
-.pack-description {
-  font-size: 18px;
-}
-
-.pack-members {
+.pack-description, .pack-members, .pack-members-list, .pack-den {
   font-size: 20px;
 }
 
@@ -206,6 +176,15 @@ td {
   max-width: 150px;
 }
 
-.pack-den {
+.roles-name {
+  width: 20%;
+  font-weight: 600;
   font-size: 20px;
+}
+
+.roles-description {
+  width: 80%;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 5px;
 }
